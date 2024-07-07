@@ -1,0 +1,13 @@
+logging:
+  file:
+    name: logs/app.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      total-size-cap: 1GB
+      max-history: 10
+  level:
+    org.springframework.web: debug
+
+log:
+  enabled: true
